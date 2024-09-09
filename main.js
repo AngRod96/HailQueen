@@ -1,3 +1,15 @@
+
+const queens = []
+
+const createQueen = (queenId, queenName) => {
+    const queenObject = {
+        id: queenId,
+        name: queenName
+    }
+
+    queens.push(queenObject)
+}
+
 /*
     Define a function with a single parameter. When the function
     is invoked, an argument is required.
@@ -20,3 +32,8 @@ const ramona = hailTheQueen()
 console.log(ramona) //this comes out as undefined because this is a logical error meaning there was no parameter given so it stays undefined
 //this will fix error
 //const ramona = hailTheQueen("Ana Rodriguez")
+
+
+//Syntactical Errors
+const monica = hailTheQueen("Monica Dinglehopper")
+console.log(monica)
