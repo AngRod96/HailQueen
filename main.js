@@ -20,6 +20,13 @@ const hailTheQueen = (nameString) => {
     return `Hail Her Majesty, ${nameString}.`  // This function returns a string
 }
 
+for (const queen of queens) {
+    const hailMessage = haitlTheQueen(queen.name)
+    console.log(hailMessage)
+}
+
+
+
 const athena = hailTheQueen("Athena Perez")
 
 console.log(athena)
