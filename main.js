@@ -1,4 +1,12 @@
 
+const tributeChest = []
+const payTribute = () => {
+    // Create a tribute object
+
+
+    // Add the tribute object to the tribute chest
+}
+
 const queens = []
 
 const createQueen = (queenId, queenName) => {
