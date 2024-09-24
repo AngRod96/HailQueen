@@ -49,3 +49,32 @@ const ramona = hailTheQueen()
 console.log(ramona) //this comes out as undefined because this is a logical error meaning there was no parameter given so it stays undefined
 //this will fix error
 //const ramona = hailTheQueen("Ana Rodriguez")
+
+
+function fizzBuzz(n) {
+    //a plasce to store the results (list, array )
+    const results = []
+     //iteraate from 1 up to and including n
+    //if the value is a multiple of 3
+    //push the value "Fizz" into the result
+    for (let i = 1; <= n; i += 1) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            results.push('FizzBuzz')
+        
+        } else if (i % 3 === 0) {
+            results.push('Fizz')
+        } else if (i % 5 === 0) {
+            results.push('Buzz') 
+        } else {
+            results.push(i)
+        }
+    }
+    return results
+
+
+    //if the value is a multiple of 5 use the value push value "buzz" into the result
+    //if the value is a multiple of 3 & 5 push the value fizz buzz into the result else push the value itself 
+    //return the results 
+}
+
+console.log(fizzBuzz(3))
