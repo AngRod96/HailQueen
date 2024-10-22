@@ -1,4 +1,16 @@
 const queens = []
+
+
+const createQueen = () => {
+    const queenObject = {
+        id: queenId,
+        name:
+    }
+
+    queens.push()
+}
+
+createQueen(1, "Trinity Terry")
 /*
     Define a function with a single parameter. When the function
     is invoked, an argument is required.
