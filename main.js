@@ -92,30 +92,4 @@ function fizzBuzz(n) {
 
 console.log(fizzBuzz(3))
 
-
-// 9 ft longboard surfboard
-	// * Is a surfing gear product
-    // 5 ft shortboard surfboard
-    //     * Is a surfing gear product
-    // Full wetsuit with hood and boots
-    //     * Is a clothing product
-    // Surfboard leash
-    //     * Is currently on sale
-    //     * Is a surfing gear product
-    // Surf wax
-    //     * Is currently on sale
-    //     * Is a surfing gear product
-    // Surfboard fins
-    //     * Is currently on sale
-    //     * Is a surfing gear product
-    // Rashguard shirt
-    //     * Is currently on sale
-    //     * Is a clothing product
-    // Surfboard rack for car
-    //     * Is a surfing gear product
-    // Beach towel
-    //     * Is currently on sale
-    //     * Is a clothing product
-    // Surfboard repair kit
-    //     * Is currently on sale
-    //     * Is a surfing gear product
+fizzBuzz()
