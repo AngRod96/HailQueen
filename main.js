@@ -1,4 +1,4 @@
-
+const queens = []
 /*
     Define a function with a single parameter. When the function
     is invoked, an argument is required.
