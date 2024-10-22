@@ -4,10 +4,18 @@ const queens = []
 const createQueen = () => {
     const queenObject = {
         id: queenId,
-        name:
+        name: queenName
     }
 
-    queens.push()
+    queens.push(queenObject)
+}
+
+//iterating through the queens
+for (const queen of queens) {
+
+    const hailMessage = hailTheQueen()  // What should be passed as an argument?
+    console.log(hailMessage)
+
 }
 
 createQueen(1, "Trinity Terry")
