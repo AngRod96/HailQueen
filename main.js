@@ -1,3 +1,7 @@
+
+const tributeChest = []
+
+
 const queens = []
 
 
