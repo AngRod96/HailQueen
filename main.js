@@ -18,6 +18,8 @@ for (const queen of queens) {
 
 }
 
+const hailMessage = hailTheQueen(queen.name)
+
 createQueen(1, "Trinity Terry")
 /*
     Define a function with a single parameter. When the function
