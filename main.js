@@ -4,9 +4,13 @@ const tributeChest = []
 const payTribute = () => {
     // Create a tribute object
     const payTribute = (tributeId, tributeDescription, queenId) => {
-
+        const tribute = {
+            id: tributeId,
+            description: tributeDescription,
+            queenId: queenId
+        }
+        tributeChest.push(tribute)
     }
-
 
     // Add the tribute object to the tribute chest
 }
