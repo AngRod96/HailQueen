@@ -15,6 +15,12 @@ const payTribute = () => {
     // Add the tribute object to the tribute chest
 }
 
+
+payTribute(1, "Barrel of wine", 2)
+payTribute(2, "Silk", 1)
+payTribute(3, "Bushel of oranges", 3)
+payTribute(4, "Ten gold coins", 1)
+
 const queens = []
 
 
