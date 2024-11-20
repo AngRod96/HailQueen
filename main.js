@@ -67,5 +67,12 @@ console.log(Ava)
 const maria = hailTheQueen("Maria Luzardo")
 console.log(maria)
 
+
+const Mia = hailTheQueen("Mia Luzardo")
+console.log(Mia)
+
+const Han = hailTheQueen("Han Josh")
+console.log(Han)
+
 const jenna = hailTheQueen("Jenna Solis") // Argument value is "Jenna Solis"
 console.log(jenna)
