@@ -58,5 +58,8 @@ console.log(athena)
 const charisse = hailTheQueen("Charisse Ford") // Argument value is "Charisse Ford"
 console.log(charisse)
 
+const taylor = hailTheQueen("Taylor Sol")
+console.log(taylor)
+
 const jenna = hailTheQueen("Jenna Solis") // Argument value is "Jenna Solis"
 console.log(jenna)
