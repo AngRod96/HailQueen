@@ -20,3 +20,18 @@ for (const coffee of coffees) {
 }
 
 console.log(output)
+
+
+
+let totalTopics = 0
+
+const notes = [ 
+{
+    id: 1,
+    text: "Hello",
+    author: "Peter Reign",
+    date: "Thursday, 4th",
+    topics: ["Work progress", "reviewing array"]
+
+}
+]
