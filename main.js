@@ -21,8 +21,6 @@ for (const coffee of coffees) {
 
 console.log(output)
 
-
-
 let totalTopics = 0
 
 const notes = [ 
@@ -35,3 +33,17 @@ const notes = [
 
 }
 ]
+notes.push({
+    id: 2,
+    text: "Review all of my old code",
+    author: "Sarah Mass",
+    date: "2024-1-1",
+    topics: ["strategy", "Professional"]
+})
+notes.push({
+    id: 3,
+    text: "I have found that slowing down and thinking about the problem, and writing out the comments makes it vastly easier to write code.",
+    author: "Ang Rod",
+    date: "2021-01-8",
+    topics: [ "thinking" ]
+})
