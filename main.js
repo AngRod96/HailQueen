@@ -47,3 +47,11 @@ notes.push({
     date: "2021-01-8",
     topics: [ "thinking" ]
 })
+
+notes.push({
+    id:4,
+    text:"How to push an array",
+    author: "Taylor P",
+    date: "2023-3-2",
+    topics: ["Figure out how to push an array"]
+})
