@@ -69,3 +69,17 @@ console.log("*** Average Topics Per Note ***")
 }
  
  console.log(totalTopics / notes.length)
+
+ console.log("*** Notes with the github topic ***")
+
+const filteredNotes = []
+const criteria = "thinking"
+
+ for (const note of notes) {
+    if (note.topics.includes(criteria)){
+        filteredNotes.push(note)
+
+    }
+
+}
+console.log(filteredNotes)
