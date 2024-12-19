@@ -55,3 +55,17 @@ notes.push({
     date: "2023-3-2",
     topics: ["Figure out how to push an array"]
 })
+
+console.log("*** All Note Topics ***")
+for (const note of notes) {
+   for(const topic of note.topics) 
+   console.log(topic)
+}
+
+console.log("*** Average Topics Per Note ***")
+
+ for (const note of notes) {
+    totalTopics += note.topics.length
+}
+ 
+ console.log(totalTopics / notes.length)
