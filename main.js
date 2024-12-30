@@ -83,3 +83,17 @@ const criteria = "thinking"
 
 }
 console.log(filteredNotes)
+
+console.log("***  Note Articles  ***")
+
+let everyHTMl = " "
+
+for (const note of notes) {
+    everyHTMl += `\n<article>\n   ${note.text}`
+    for(const topic of note.topics) {
+        everyHTMl += `\n   <section>${note.topics}</section>`
+        everyHTMl += `\n</article>`
+    }
+
+}
+console.log(everyHTMl)
