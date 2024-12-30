@@ -56,6 +56,14 @@ notes.push({
     topics: ["Figure out how to push an array"]
 })
 
+notes.push({
+    id: 5,
+    text: "how to make an if/else statement",
+    author: "Kev Tay",
+    date: "2023-4-6",
+    topics: ["figure out how to make statements"]
+})
+
 console.log("*** All Note Topics ***")
 for (const note of notes) {
    for(const topic of note.topics) 
@@ -87,6 +95,7 @@ console.log(filteredNotes)
 console.log("***  Note Articles  ***")
 
 let everyHTMl = " "
+let topic = ""
 
 for (const note of notes) {
     everyHTMl += `\n<article>\n   ${note.text}`
@@ -97,3 +106,4 @@ for (const note of notes) {
 
 }
 console.log(everyHTMl)
+
