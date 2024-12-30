@@ -64,13 +64,23 @@ notes.push({
     topics: ["figure out how to make statements"]
 })
 
+
+notes.push({
+    id: 5,
+    text: "how to make an if/else statement",
+    author: "Kev Tay",
+    date: "2023-4-6",
+    topics: ["figure out how to make statements"]
+})
+
+
 console.log("*** All Note Topics ***")
 for (const note of notes) {
    for(const topic of note.topics) 
    console.log(topic)
 }
 
-console.log("*** Average Topics Per Note ***")
+console.log("*** All Topics Per Note ***")
 
  for (const note of notes) {
     totalTopics += note.topics.length
