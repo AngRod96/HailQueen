@@ -135,3 +135,78 @@ const theQueen = (string) => {
 const thePerson = (Name) => {
     return `Hail Her Majesty, ${Name}`
 }
+
+
+let totalTopics = 0
+
+const notes = [ 
+{
+    id: 1,
+    text: "Hello",
+    author: "Peter Reign",
+    date: "Thursday, 4th",
+    topics: ["Work progress", "reviewing array"]
+
+}
+]
+
+notes.push({
+    id: 2,
+    text: "Review all of my old code",
+    author: "Sarah Mass",
+    date: "2024-1-1",
+    topics: ["strategy", "Professional"]
+})
+
+
+notes.push({
+    id:4,
+    text:"How to push an array",
+    author: "Taylor P",
+    date: "2023-3-2",
+    topics: ["Figure out how to push an array"]
+})
+
+ console.log("*** All Note Topics ***")
+ for (const note of notes) {
+    for(const topic of note.topics) 
+    console.log(topic)
+}
+
+ console.log("*** Average Topics Per Note ***")
+
+ for (const note of notes) {
+    totalTopics += note.topics.length
+}
+ 
+ console.log(totalTopics / notes.length)
+
+ console.log("*** Notes with the github topic ***")
+
+const filteredNotes = []
+const criteria = "thinking"
+
+ for (const note of notes) {
+    if (note.topics.includes(criteria)){
+        filteredNotes.push(note)
+
+    }
+
+}
+console.log(filteredNotes)
+
+
+console.log("***  Note Articles  ***")
+
+let everyHTMl = " "
+
+for (const note of notes) {
+    everyHTMl += `\n<article>\n   ${note.text}`
+    for(const topic of note.topics) {
+        everyHTMl += `\n   <section>${note.topics}</section>`
+        everyHTMl += `\n</article>`
+    }
+
+}
+console.log(everyHTMl)
+
