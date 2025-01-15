@@ -117,3 +117,21 @@ for (const note of notes) {
 }
 console.log(everyHTMl)
 
+
+//Functions 
+
+/*
+    Define a function with a single parameter. When the function
+    is invoked, an argument is required.
+*/
+const hailTheQueen = (nameString) => {
+    return `Hail Her Majesty, ${nameString}.`  // This function returns a string
+}
+
+const theQueen = (string) => {
+    return `Hail Her Majesty, ${string}`
+}
+
+const thePerson = (Name) => {
+    return `Hail Her Majesty, ${Name}`
+}
