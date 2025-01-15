@@ -1,3 +1,57 @@
+
+const database = {
+    employees: [{
+        id: 1,
+        name: "Alphonse Meron",
+        email: "ameron0@mashable.com",
+        hourlyRate: 11.50
+
+    }, {
+        id: 2,
+        name: "Damara Pentecust",
+        email: "dpentecust1@apache.org",
+        hourlyRate: 10.75
+
+    }, {
+        id: 3,
+        name: "Anna Bowton",
+        email: "abowton2@wisc.edu",
+        hourlyRate: 12.30
+
+    }, {
+        id: 4,
+        name: "Hunfredo Drynan",
+        email: "hdrynan3@bizjournals.com",
+        hourlyRate: 12.00
+
+    }, {
+        id: 5,
+        name: "Elmira Bick",
+        email: "ebick4@biblegateway.com",
+        hourlyRate: 12.30
+
+    }, {
+        id: 6,
+        name: "Bernie Dreger",
+        email: "bdreger5@zimbio.com",
+        hourlyRate: 11.50
+
+    }, {
+        id: 7,
+        name: "Rolando Gault",
+        email: "rgault6@google.com",
+        hourlyRate: 11.80
+
+    }}
+
+
+
+
+
+
+
+
+
 const coffees = [
     "light colombian roast", "hawaiian dark roast", "guatemalan blend medium roast",
     "dark madagascar blend", "jamaican dark blue", "jamaican medium roast",
@@ -166,47 +220,4 @@ notes.push({
     date: "2023-3-2",
     topics: ["Figure out how to push an array"]
 })
-
- console.log("*** All Note Topics ***")
- for (const note of notes) {
-    for(const topic of note.topics) 
-    console.log(topic)
-}
-
- console.log("*** Average Topics Per Note ***")
-
- for (const note of notes) {
-    totalTopics += note.topics.length
-}
- 
- console.log(totalTopics / notes.length)
-
- console.log("*** Notes with the github topic ***")
-
-const filteredNotes = []
-const criteria = "thinking"
-
- for (const note of notes) {
-    if (note.topics.includes(criteria)){
-        filteredNotes.push(note)
-
-    }
-
-}
-console.log(filteredNotes)
-
-
-console.log("***  Note Articles  ***")
-
-let everyHTMl = " "
-
-for (const note of notes) {
-    everyHTMl += `\n<article>\n   ${note.text}`
-    for(const topic of note.topics) {
-        everyHTMl += `\n   <section>${note.topics}</section>`
-        everyHTMl += `\n</article>`
-    }
-
-}
-console.log(everyHTMl)
 
