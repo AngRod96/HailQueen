@@ -251,13 +251,49 @@ notes.push({
 
 
 notes.push({
-    id: 5,
+    id: 6,
     text: "how to make an if/else statement",
     author: "Kev Tay",
     date: "2023-4-6",
     topics: ["figure out how to make statements"]
 })
 
+notes.push({
+    id: 7,
+    text: "how to make an if/else statement",
+    author: "Kev Tay",
+    date: "2023-4-6",
+    topics: ["figure out how to make statements"]
+})
+
+notes.push({
+    id: 8,
+    text: "how to make an if/else statement",
+    author: "Bennito Tay",
+    date: "2023-4-6",
+    topics: ["figure out how to make statements"]
+})
+notes.push({
+    id: 9,
+    text: "how to make an if/else statement",
+    author: "Tay Tay",
+    date: "2023-4-6",
+    topics: ["figure out how to make statements"]
+})
+notes.push({
+    id: 10,
+    text: "how to make an if/else statement",
+    author: "Kok Tay",
+    date: "2023-4-6",
+    topics: ["figure out how to make statements"]
+})
+notes.push({
+    id: 11,
+    text: "how to make an if/else statement",
+    author: "Key Tay",
+    date: "2023-4-6",
+    topics: ["figure out how to make statements"]
+})
 
 console.log("*** All Note Topics ***")
 for (const note of notes) {
