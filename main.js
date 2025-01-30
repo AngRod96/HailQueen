@@ -388,3 +388,38 @@ notes.push({
     topics: ["Figure out how to push an array"]
 })
 
+
+const employees = getEmployees()
+
+const employeeOrders = (id) => {
+    const fulfilledOrders = 0
+
+
+    for (const order of orders) {
+        if (order.employeeId === id) {
+            fulfilledOrders++
+        }
+    }
+    return fulfilledOrders
+}
+
+
+document.addEventListener (
+    "click",
+    (clickEvt) => {
+        const itemClicked = clickEvt.target
+        if ( itemClicked.dataset.type === "employee") {
+            const employeeId = itemClicked.dataset.id
+
+            for( const employee of employees) {
+                if (employee === parseInt(employeeId)) {
+                    const orderCount = employeeOrders()
+
+                    window.alert(`${employee.name} sold ${} products`)
+                }
+            }
+        }
+    }
+
+)
+
