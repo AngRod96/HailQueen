@@ -14,7 +14,7 @@ const database = {
 
     }, {
         id: 3,
-        name: "Anna Bowton",
+        name: "Ana Bowton",
         email: "abowton2@wisc.edu",
         hourlyRate: 12.30
 
@@ -67,8 +67,42 @@ const database = {
         name: "Arv Biddle",
         email: "abiddle9@cafepress.com",
         hourlyRate: 13.00
+
+        
     
-        }],
+        } , {
+            id: 11,
+            name: "Arv Biddle",
+            email: "abiddle9@cafepress.com",
+            hourlyRate: 13.00
+    
+            
+        
+            }, {
+                id: 12,
+                name: "Arv Biddle",
+                email: "abiddle9@cafepress.com",
+                hourlyRate: 13.00
+        
+                
+            
+                }, {
+                    id: 10,
+                    name: "Arv Biddle",
+                    email: "abiddle9@cafepress.com",
+                    hourlyRate: 13.00
+            
+                    
+                
+                    }, {
+                        id: 10,
+                        name: "Arv Biddle",
+                        email: "abiddle9@cafepress.com",
+                        hourlyRate: 13.00
+                
+                        
+                    
+                        }],
         products: [{
             id: 1, name: "Large Coffee", price: 6.00
         }, {
@@ -129,9 +163,11 @@ const database = {
         }, {
             id: 17, productId: 4, employeeId: 10, timestamp: 1612638112396
         }, {
-            id: 16, productId: 4, employeeId: 7, timestamp: 1612638112396
+            id: 18, productId: 4, employeeId: 7, timestamp: 1612638112396
         }, {
-            id: 16, productId: 4, employeeId: 7, timestamp: 1612638112396
+            id: 19, productId: 4, employeeId: 7, timestamp: 1612638112396
+        }, {
+            id: 20, productId: 4, employeeId: 7, timestamp: 1612638112396
         }, {
             id: 16, productId: 4, employeeId: 7, timestamp: 1612638112396
         }, {
