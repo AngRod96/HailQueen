@@ -32,13 +32,13 @@ const database = {
 
     }, {
         id: 6,
-        name: "Bernie Dreger",
+        name: "Bernie Drew",
         email: "bdreger5@zimbio.com",
         hourlyRate: 11.50
 
     }, {
         id: 7,
-        name: "Rolando Gault",
+        name: "Rolanda Gault",
         email: "rgault6@google.com",
         hourlyRate: 11.80
 
@@ -89,6 +89,10 @@ const database = {
             id: 9, name: "Cubano", price: 14.99
         }, {
             id: 10, name: "Cappucino", price: 12.49
+        }, {
+            id: 11, name: "Chai", price: 11.49
+        },{
+            id: 12, name: "white mocha", price: 12.49
         }],
         orders: [{
             id: 1, productId: 10, employeeId: 5, timestamp: 1613538111396
@@ -124,7 +128,15 @@ const database = {
             id: 16, productId: 4, employeeId: 7, timestamp: 1612638112396
         }, {
             id: 17, productId: 4, employeeId: 10, timestamp: 1612638112396
-        }]
+        }, {
+            id: 16, productId: 4, employeeId: 7, timestamp: 1612638112396
+        }, {
+            id: 16, productId: 4, employeeId: 7, timestamp: 1612638112396
+        }, {
+            id: 16, productId: 4, employeeId: 7, timestamp: 1612638112396
+        }, {
+            id: 16, productId: 4, employeeId: 7, timestamp: 1612638112396
+        },]
     }
 
 
