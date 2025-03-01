@@ -226,6 +226,14 @@ notes.push({
     topics: ["strategy", "Professional"]
 })
 notes.push({
+    id: 2,
+    text: "Review all of my old code",
+    author: "Sarah Mass",
+    date: "2024-1-1",
+    topics: ["strategy", "Professional"]
+})
+
+notes.push({
     id: 3,
     text: "I have found that slowing down and thinking about the problem, and writing out the comments makes it vastly easier to write code.",
     author: "Ang Rod",
@@ -241,13 +249,6 @@ notes.push({
     topics: ["Figure out how to push an array"]
 })
 
-notes.push({
-    id: 5,
-    text: "how to make an if/else statement",
-    author: "Kev Tay",
-    date: "2023-4-6",
-    topics: ["figure out how to make statements"]
-})
 
 notes.push({
     id: 5,
@@ -515,8 +516,7 @@ import { getProducts, getEmployees, getOrders } from "./database.js"
 const products = getProducts()
 const employee= getEmployees()
 const orders = getOrders()
-
-
+const neworder = getNewOrders()
 // Function whose responsibility is to find the product for an order
 const findProduct = (order, allProducts) => {
     let orderProduct = null
