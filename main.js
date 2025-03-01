@@ -504,3 +504,49 @@ const findEmployeeDate = (order, allEmployees) => {
 
 //this is to get a date for an employee 
 //returning date
+
+const theProducts = getProducts()
+
+document.addEventListener(
+    "click", 
+    (clickEvent) => {
+        const whatWasClicked = clickEvent.target
+        if (whatWasClicked.dataset.type === "product") {
+            const coffeeName = whatWasClicked.dataset.name
+            const price = whatWasClicked.dataset.price
+            window.alert(`${coffeeName} costs $${price}`)
+        }
+        
+    }
+)
+
+export const Products= () => {
+    let html = "<ul>"
+
+    for (const product of products) {
+        html += `<li data-name="${product.name}"
+                    data-price="${product.price}"
+                    data-type="product"
+                    >${product.name}
+                </li>`
+    }
+
+    html += "</ul>"
+
+    return html
+}
+
+export const Employees = () => {
+    let html = "<ul>"
+
+    for (const employee of employees) {
+        html += `<li data-productid="${product.id}">${employee.name}</li>`
+    }
+
+    html += "</ul>"
+
+    return html
+}
+
+
+//able to return the html
