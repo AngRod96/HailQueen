@@ -84,5 +84,21 @@ const database = {
         id:1, productId: 10, employeeId: 5, timestamp: 1613538111396
     }, {
         id: 2, productId: 5, employeeId: 1, timestamp: 1613038102396
-    },]
+        }, {
+        id:3, productId: 2, employeeId: 7, timestamp: 1612837112396
+    }, {
+        id:4, productId: 8, employeeId: 5, timestamp: 1612837112396
+        }, {
+        id:5, productId: 9, employeeId: 7, timestamp: 1612735112396
+    }]
+}
+
+
+export const getProducts = () => {
+    return database.products.map(product => ({...product}))
+}
+
+
+export const getEmployees = () => {
+    return database.employees.map(employee => ({...employee}))
 }
