@@ -474,3 +474,33 @@ export const Orders = () => {
     return html
 }
 
+export const secondOrders  = () => {
+    let html = ""
+    html = "<ul>"
+
+    for (const order of orders) {
+        const employee = findEmployee(order, employees)
+        const product = findProduct(order, products)
+
+        html += `<li>${product} was sold by ${employee} on ${new Date(order.timestamp).toLocaleDateString()}</li>`
+    }
+
+    html += "</ul>"
+
+    return html
+}
+
+const findEmployeeDate = (order, allEmployees) => {
+    let orderEmployee = null
+
+    for (const employee of allEmployees) {
+        if (employee.id === order.employeeId) {
+            orderEmployee = employee.name
+        }
+    }
+
+    return findEmployeeDate
+}
+
+//this is to get a date for an employee 
+//returning date
