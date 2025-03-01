@@ -186,7 +186,7 @@ const database = {
 const coffees = [
     "light colombian roast", "hawaiian dark roast", "guatemalan blend medium roast",
     "dark madagascar blend", "jamaican dark blue", "jamaican medium roast",
-    "salvador robusto light"
+    "salvador robusto light", "salvador robusto light", "salvador robusto light", "salvador robusto light", "salvador robusto light","salvador robusto light","salvador robusto light","salvador robusto light","salvador robusto light","salvador robusto light"
 ]
 
 let output = ""
@@ -206,9 +206,9 @@ for (const coffee of coffees) {
 
 console.log(output)
 
-let totalTopics = 0
+let totalTopic = 0
 
-const notes = [ 
+const notas = [ 
 {
     id: 1,
     text: "Hello",
@@ -249,6 +249,69 @@ notes.push({
     topics: ["figure out how to make statements"]
 })
 
+notes.push({
+    id: 5,
+    text: "how to make an if/else statement",
+    author: "Kev Tay",
+    date: "2023-4-6",
+    topics: ["figure out how to make statements"]
+})
+notes.push({
+    id: 5,
+    text: "how to make an if/else statement",
+    author: "Kev Tay",
+    date: "2023-4-6",
+    topics: ["figure out how to make statements"]
+})
+notes.push({
+    id: 5,
+    text: "how to make an if/else statement",
+    author: "Kev Tay",
+    date: "2023-4-6",
+    topics: ["figure out how to make statements"]
+})
+notes.push({
+    id: 5,
+    text: "how to make an if/else statement",
+    author: "Kev Tay",
+    date: "2023-4-6",
+    topics: ["figure out how to make statements"]
+})
+notes.push({
+    id: 5,
+    text: "how to make an if/else statement",
+    author: "Kev Tay",
+    date: "2023-4-6",
+    topics: ["figure out how to make statements"]
+})
+notes.push({
+    id: 5,
+    text: "how to make an if/else statement",
+    author: "Kev Tay",
+    date: "2023-4-6",
+    topics: ["figure out how to make statements"]
+})
+notes.push({
+    id: 5,
+    text: "how to make an if/else statement",
+    author: "Kev Tay",
+    date: "2023-4-6",
+    topics: ["figure out how to make statements"]
+})
+notes.push({
+    id: 5,
+    text: "how to make an if/else statement",
+    author: "Kev Tay",
+    date: "2023-4-6",
+    topics: ["figure out how to make statements"]
+})
+notes.push({
+    id: 5,
+    text: "how to make an if/else statement",
+    author: "Kev Tay",
+    date: "2023-4-6",
+    topics: ["figure out how to make statements"]
+})
 
 notes.push({
     id: 6,
