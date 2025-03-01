@@ -68,7 +68,21 @@ const database = {
         email: "abiddle9@cafepress.com",
         hourlyRate: 13.00
 
-        }],
+    }],
     products: [{
         id: 1, name: "Large Coffee", price: 6.00
-    }]
+    }, {
+        id: 2, name: "Latte", price: 9.00
+    }, {
+        id: 3, name: "Blueberry Muffin", price: 9.49
+    }, {
+        id: 4, name: "Scone", price: 7.56
+    }, {
+        id: 5, name: "Bran Muffins", price: 12.56
+    },],
+    orders: [{
+        id:1, productId: 10, employeeId: 5, timestamp: 1613538111396
+    }, {
+        id: 2, productId: 5, employeeId: 1, timestamp: 1613038102396
+    },]
+}
