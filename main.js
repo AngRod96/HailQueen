@@ -451,6 +451,30 @@ notes.push({
     topics: ["Figure out how to push an array"]
 })
 
+notes.push({
+    id:4,
+    text:"How to push an array",
+    author: "Taylor P",
+    date: "2023-3-2",
+    topics: ["Figure out how to push an array"]
+})
+
+notes.push({
+    id:4,
+    text:"How to push an array",
+    author: "Taylor P",
+    date: "2023-3-2",
+    topics: ["Figure out how to push an array"]
+})
+
+notes.push({
+    id:4,
+    text:"How to push an array",
+    author: "Taylor P",
+    date: "2023-3-2",
+    topics: ["Figure out how to push an array"]
+})
+
 
 const employees = getEmployees()
 
@@ -465,7 +489,6 @@ const employeeOrders = (id) => {
     }
     return fulfilledOrders
 }
-
 
 document.addEventListener (
     "click",
